@@ -1,13 +1,88 @@
-body {
+body{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+body *{
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.HeaderSection{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+
+
+}
+.HeaderSection .HeaderFirstSection,.HeaderSecondSection,.HeaderThirdSection{
+  display: flex;
+  padding: 20px;
+  
+}
+.HeaderSection{
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+
+}
+.HeaderSection span{
+  margin: 5px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.StartSection img{
+  width: 150px;
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  padding: 10px;
+}
+.StartSection .input{
+  width: 400px;
+  height: fit-content;
+  margin-left: 20px;
+ 
+
+}
+.StartSection input{
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border-bottom:1px solid #000;
+}
+.StartSection span{
+  color: #000;
+}
+.StartSection .charc{
+  display: flex;
+  background-color: #fff;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 30px;
+  border: 3px solid #ff0000;
+}
+.StartSection .attribute{
+margin: 20px;
+display: flex;
+justify-content: space-between;
+}
+.StartSection .attribute button{
+  color: black;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+.StartSection .attribute span{
+  width: 30px;
+}
+.StartSection .handleButton{
+  border: none;
+  display: flex;
+}
+.StartSection .handleButton button{
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 5px;
+  margin: 10px;
+
 }

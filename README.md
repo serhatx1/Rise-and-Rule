@@ -2,7 +2,7 @@
 
 - Create and customize your character with different attributes.
 - Manage the character's journey through a dynamic dashboard.
-- Save and load character data using local storage.
+- Save and load character data using local storage.(Yes you can hack the game,but don't do)
 - User-friendly interface with real-time updates on character stats.
 
 
